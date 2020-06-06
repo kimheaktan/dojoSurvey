@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Survey</title>
+</head>
+<body>
+        <form  style="margin:50px" action="result" method="post">
+            <div>
+                <label for="">Your Name:</label>
+                <input class="form-control" type="text" name="name">
+            </div>
+            <label for="">Dojo Location</label>
+            <input class="form-control" type="text" name="location">
+            <label for="language">Language</label>
+            <select class="form-control" id="language" name="language">
+                <option value="c#">C#</option>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+            <div>
+                <label style="margin-top:10px" for="comment">Comment(Optional)</label>
+                <textarea class="form-control"name="comment" id="" cols="30" rows="10"></textarea>
+            </div>
+            
+            <button style="margin:5px" type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+
+</body>
+</html>

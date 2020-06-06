@@ -1,0 +1,30 @@
+{
+  "FilePath": "/Users/user/coding dojo/csharpNew/asp1_Mvc/dojoSurvery/dojoSurvery.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "dojoSurvery",
+  "Documents": [
+    {
+      "FilePath": "/Users/user/coding dojo/csharpNew/asp1_Mvc/dojoSurvery/Views/Home/Home.cshtml",
+      "TargetPath": "Views\\Home\\Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/user/coding dojo/csharpNew/asp1_Mvc/dojoSurvery/Views/Result/Result.cshtml",
+      "TargetPath": "Views\\Result\\Result.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
